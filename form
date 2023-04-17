@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Maria Jose Gorriti</title>
+    <meta name="description" content="tutorial gratuito">
+    <meta name="keywords" content="HTML5,CSS,JavaScript">
+    <meta name="author" content="Maria Jose Gorriti">
+</head>
+<html>
+<body>
+<h1>Formulario de Maria Jose Gorriti</h1>
+<form action="envio.php" method="post" target="_blank"> 
+    <label for="usuario">Nombre del alumno</label>
+    <input type="text" id="usuario" size="tamaño" name="nombre" placeholder="Tu nombre">
+    <br>
+<label for="programando">Años programando</label>
+<input type="number" id="usuario" size="tamaño" name="nombre" placeholder="Años programando">
+<br>
+<label for="Pais">Selecciona tu pais de origen</label>
+<select name="pais" id="pais">
+<optgroup> <label for="America"></label> America
+    <option value="Argentina"> Argentina</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Uruguay">Uruguay</option>
+    <option value="Chile">Chile</option>
+</optgroup>
+</select>
+  <p>Selecciona tu pagina web favorita:</p>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+  <br>  
+  <p>¿Cual es su edad?:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label>
+  <br>
+  <label for="opinion">Escribe aqui tus dudas</label>
+<textarea type="file" id="opinion" rows="10" cols="50"></textarea>
+  <br>
+<input type="submit" value="Enviar tus datos">
+<input type="reset" value="Resetear tus datos">
+  <br>
+<form action="/action_page.php">  
+</form>
+</body>
+</html>
